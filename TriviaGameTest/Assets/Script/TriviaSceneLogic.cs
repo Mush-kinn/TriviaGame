@@ -98,6 +98,7 @@ public class TriviaSceneLogic : MonoBehaviour
 
         m_NextButton.GetComponentInChildren<TextMeshProUGUI>().text = "Next";
         m_NextButton.onClick.AddListener(() => NextQuestion());
+        m_NextButton.interactable = false;
 
         m_image.color = Color.clear;
         m_resultText.text = "";
@@ -119,17 +120,18 @@ public class TriviaSceneLogic : MonoBehaviour
         }
         else
         {
-            m_resultText.text = "Woops, sorry that wasn't the right answer";
+            m_resultText.text = "Woops, sorry. That wasn't the right answer.";
             m_options[_index].image.color = Color.red;
             m_options[selectedQuestions[m_currQuestion].answerIndex].image.color = Color.green;
         }
         
-        m_correctSongDetail.text = GetSongSelection(m_currQuestion, selectedQuestions[m_currQuestion].answerIndex);
+        m_correctSongDetail.text = "Correct Answer: " + GetSongSelection(m_currQuestion, selectedQuestions[m_currQuestion].answerIndex);
 
         m_tally.answers[m_currQuestion].x = _index;
         m_tally.answers[m_currQuestion].y = selectedQuestions[m_currQuestion].answerIndex;
 
         DisableButtons();
+        m_NextButton.interactable = true;
 
         m_audioSource.Stop();
         m_audioSource.clip = null;
@@ -163,6 +165,7 @@ public class TriviaSceneLogic : MonoBehaviour
             m_mainLogic.TriviaDone(m_tally);
             return;
         }
+        m_NextButton.interactable = false;
 
         m_audioSource.clip = null;
         m_image.texture = null;

@@ -284,8 +284,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1380849227}
-  - component: {fileID: 1380849226}
   - component: {fileID: 1380849225}
+  - component: {fileID: 1380849228}
   m_Layer: 0
   m_Name: PopQuizLogic
   m_TagString: Untagged
@@ -307,22 +307,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allPlaylists: []
   jsonFileText: 
---- !u!114 &1380849226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380849224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 834127061ad014808b60c838d3864d37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WelcomeScreenName: WelcomeScreen
-  TriviaScreenName: TriviaScreen
-  ResultScreenName: ResultsScreen
-  m_currState: 0
 --- !u!4 &1380849227
 Transform:
   m_ObjectHideFlags: 0
@@ -338,3 +322,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1380849228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380849224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e5e320018aa47b6be5c9dcba81db44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WelcomeScreenName: WelcomeScreen
+  TriviaScreenName: TriviaScreen
+  ResultScreenName: ResultsScreen
+  m_currState: 0

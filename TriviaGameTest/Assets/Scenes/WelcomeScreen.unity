@@ -240,10 +240,10 @@ RectTransform:
   m_Father: {fileID: 81588307}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193.43, y: -214}
-  m_SizeDelta: {x: 386.8506, y: 72.5345}
+  m_AnchorMin: {x: 0.5, y: 0.09027333}
+  m_AnchorMax: {x: 0.82865953, y: 0.208}
+  m_AnchoredPosition: {x: 0.42999268, y: 0}
+  m_SizeDelta: {x: 0.85058594, y: 0.5345001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &81588302
 GameObject:
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 81588302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae12b4575f2df4d8b8c92fd2dd50144f, type: 3}
+  m_Script: {fileID: 11500000, guid: baee6e86c5fc241b9a411297c8202945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_options:
@@ -486,10 +486,10 @@ RectTransform:
   m_Father: {fileID: 81588307}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -134}
-  m_SizeDelta: {x: 386.8506, y: 72.5345}
+  m_AnchorMin: {x: 0.337, y: 0.22100002}
+  m_AnchorMax: {x: 0.66185105, y: 0.33927333}
+  m_AnchoredPosition: {x: 0.5, y: 0}
+  m_SizeDelta: {x: 5.850586, y: 0.5345001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &293251711
 GameObject:
@@ -608,10 +608,10 @@ RectTransform:
   m_Father: {fileID: 81588307}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.43, y: -51.2672}
-  m_SizeDelta: {x: 386.8506, y: 72.5345}
+  m_AnchorMin: {x: 0.17044681, y: 0.35900003}
+  m_AnchorMax: {x: 0.5, y: 0.47536337}
+  m_AnchoredPosition: {x: 0.070007324, y: -0.76719666}
+  m_SizeDelta: {x: -0.14941406, y: 1.5345001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &555880991
 GameObject:
@@ -646,10 +646,10 @@ RectTransform:
   m_Father: {fileID: 81588307}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 188}
-  m_SizeDelta: {x: 712.0876, y: 128.9923}
+  m_AnchorMin: {x: 0.06674468, y: 0.65800005}
+  m_AnchorMax: {x: 0.9315532, y: 0.9582734}
+  m_AnchoredPosition: {x: 1, y: 0}
+  m_SizeDelta: {x: 0.22998047, y: 0.08670044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555880993
 MonoBehaviour:
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Welcome to the Music Trivia Game Test!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -698,14 +698,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1051,10 +1051,10 @@ RectTransform:
   m_Father: {fileID: 81588307}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 41.3432}
-  m_SizeDelta: {x: 1044.3999, y: 82.6864}
+  m_AnchorMin: {x: 0.055702128, y: 0.5}
+  m_AnchorMax: {x: 0.9435532, y: 0.63500005}
+  m_AnchoredPosition: {x: 0.5, y: -0.15679932}
+  m_SizeDelta: {x: 1.3999023, y: -0.31359863}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474314490
 MonoBehaviour:
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Please choose one of the following themes to get started. \nGood Luck!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1103,14 +1103,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 36.2
+  m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1288,71 +1288,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754514663}
   m_CullTransparentMesh: 1
---- !u!1 &2114425521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2114425524}
-  - component: {fileID: 2114425523}
-  - component: {fileID: 2114425522}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2114425522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114425521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &2114425523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114425521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &2114425524
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114425521}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

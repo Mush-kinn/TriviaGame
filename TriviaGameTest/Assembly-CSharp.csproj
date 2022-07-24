@@ -58,9 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets/Script/JSONreader.cs" />
     <Compile Include="Assets/Script/QuizLogic.cs" />
+    <Compile Include="Assets/Script/WelcomeSceneLogic.cs" />
     <Compile Include="Assets/Script/ResultSceneLogic.cs" />
     <Compile Include="Assets/Script/TriviaSceneLogic.cs" />
-    <Compile Include="Assets/Script/WelcomeSceneLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
