@@ -1,0 +1,94 @@
+{
+    "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0",
+    "questions": [
+      {
+        "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0-0",
+        "answerIndex": 1,
+        "choices": [
+          { "artist": "Spice Girls", "title": "Spice Up Your Life" },
+          { "artist": "Mr. Big", "title": "To Be With You" },
+          { "artist": "New Kids On The Block", "title": "Step By Step" },
+          { "artist": "Westlife", "title": "Swear It Again" }
+        ],
+        "song": {
+          "id": "USAT29100048",
+          "title": "To Be With You",
+          "artist": "Mr. Big",
+          "picture": "https://wam-mobile.appspot.com/cdn/music/songs/album/get?songId=296499",
+          "sample": "https://storage.googleapis.com/songpop/samples/wav/8s/296499-sound.wav"
+        }
+      },
+      {
+        "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0-1",
+        "answerIndex": 3,
+        "choices": [
+          {
+            "artist": "C+C Music Factory",
+            "title": "Gonna Make You Sweat (Everybody Dance Now)"
+          },
+          { "artist": "Vanessa Williams", "title": "Save the Best for Last" },
+          { "artist": "Spice Girls", "title": "2 Become 1" },
+          { "artist": "Los del Río", "title": "Macarena (Bayside Boys Remix)" }
+        ],
+        "song": {
+          "id": "ES5109500537",
+          "title": "Macarena (Bayside Boys Remix)",
+          "artist": "Los del Río",
+          "picture": "https://wam-mobile.appspot.com/cdn/music/songs/album/get?songId=4667531226775552",
+          "sample": "https://storage.googleapis.com/songpop/samples/wav/8s/4667531226775552-sound.wav"
+        }
+      },
+      {
+        "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0-2",
+        "answerIndex": 3,
+        "choices": [
+          { "artist": "George Michael", "title": "Praying for Time" },
+          { "artist": "Destiny's Child", "title": "Bills, Bills, Bills" },
+          { "artist": "Christina Aguilera", "title": "Genie In a Bottle" },
+          { "artist": "P.M. Dawn", "title": "Set Adrift On Memory Bliss" }
+        ],
+        "song": {
+          "id": "USLS51227605",
+          "title": "Set Adrift On Memory Bliss",
+          "artist": "P.M. Dawn",
+          "picture": "https://wam-mobile.appspot.com/cdn/music/songs/album/get?songId=5784457806086144",
+          "sample": "https://storage.googleapis.com/songpop/samples/wav/8s/5784457806086144-sound.wav"
+        }
+      },
+      {
+        "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0-3",
+        "answerIndex": 3,
+        "choices": [
+          { "artist": "Mariah Carey", "title": "Love Takes Time" },
+          { "artist": "Beats International", "title": "Dub Be Good to Me" },
+          { "artist": "Elton John", "title": "Sacrifice" },
+          { "artist": "Santana & Rob Thomas", "title": "Smooth" }
+        ],
+        "song": {
+          "id": "USAR19900033",
+          "title": "Smooth",
+          "artist": "Santana & Rob Thomas",
+          "picture": "https://wam-mobile.appspot.com/cdn/music/songs/album/get?songId=73124",
+          "sample": "https://storage.googleapis.com/songpop/samples/wav/8s/73124-sound.wav"
+        }
+      },
+      {
+        "id": "08cb59ae-4415-4155-82ff-d5077ddbcc8c-0-4",
+        "answerIndex": 2,
+        "choices": [
+          { "artist": "Karyn White", "title": "Romantic" },
+          { "artist": "Shanks & Bigfoot", "title": "Sweet Like Chocolate" },
+          { "artist": "No Doubt", "title": "Don't Speak" },
+          { "artist": "Hanson", "title": "MMMBop" }
+        ],
+        "song": {
+          "id": "USIR19500279",
+          "title": "Don't Speak",
+          "artist": "No Doubt",
+          "picture": "https://wam-mobile.appspot.com/cdn/music/songs/album/get?songId=76174",
+          "sample": "https://storage.googleapis.com/songpop/samples/wav/8s/76174-sound.wav"
+        }
+      }
+    ],
+    "playlist": "1990's #1 Hits"
+  }
